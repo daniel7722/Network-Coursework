@@ -18,7 +18,7 @@ h1 ip route add default via 1.1.0.1 dev h1-eth0
 # Configure r1
 r1 ip addr add 1.1.0.1/24 brd + dev r1-eth0
 r1 ip addr add 1.0.1.1/30 brd + dev r1-eth1
-r1 ip addr add 1.0.3.1/30 brd + dev r1-eth2
+r1 ip addr add 1.0.2.1/30 brd + dev r1-eth2
 r1 ip route add default via 1.0.1.2 dev r1-eth1
 
 # Configure h2
